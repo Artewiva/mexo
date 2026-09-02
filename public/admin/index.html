@@ -3,10 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pannello di Controllo - CMS</title>
+  <title>Content Manager</title>
 </head>
 <body>
   <!-- Script di Decap CMS -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'Artewiva/mexo',
+          branch: 'main'
+        },
+        media_folder: 'public/images',
+        public_folder: '/images',
+        collections: [
+          {
+            name: 'contenuti',
+            label: 'Contenuti del Sito',
+            files: [
+              {
+                file: 'src/App.tsx',
+                name: 'home_content',
+                label: 'Testi Principali',
+                fields: [
+                  { label: 'Titolo', name: 'title', widget: 'string' },
+                  { label: 'Descrizione', name: 'description', widget: 'text' }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    });
+  </script>
 </body>
 </html>
