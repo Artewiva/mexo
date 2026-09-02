@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/Artewiva/mexo
+  repo: /Artewiva/mexo
   branch: main # o master, a seconda del branch principale del tuo repo
 
 media_folder: "immagini pubbliche" # Salva le immagini direttamente nella cartella che hai già nel progetto
