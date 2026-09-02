@@ -4,39 +4,43 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager</title>
+  <!-- Caricamento dello stile di Decap -->
+  <link href="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.css" rel="stylesheet" />
 </head>
 <body>
-  <<!-- Script di Decap CMS aggiornato -->
-<script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
+  <!-- Script principale con fallback per evitare conflitti -->
+  <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>
   <script>
-    CMS.init({
-      config: {
-        backend: {
-          name: 'github',
-          repo: 'Artewiva/mexo',
-          branch: 'main'
-        },
-        media_folder: 'public/images',
-        public_folder: '/images',
-        collections: [
-          {
-            name: 'contenuti',
-            label: 'Contenuti del Sito',
-            files: [
-              {
-                file: 'src/App.tsx',
-                name: 'home_content',
-                label: 'Testi Principali',
-                fields: [
-                  { label: 'Titolo', name: 'title', widget: 'string' },
-                  { label: 'Descrizione', name: 'description', widget: 'text' }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    });
+    if (window.CMS) {
+      CMS.init({
+        config: {
+          backend: {
+            name: 'github',
+            repo: 'mexoz/Artewiva/mexo', 
+            branch: 'main'
+          },
+          media_folder: 'public/images',
+          public_folder: '/images',
+          collections: [
+            {
+              name: 'contenuti',
+              label: 'Contenuti del Sito',
+              files: [
+                {
+                  file: 'src/App.tsx',
+                  name: 'home_content',
+                  label: 'Testi Principali',
+                  fields: [
+                    { label: 'Titolo', name: 'title', widget: 'string' },
+                    { label: 'Descrizione', name: 'description', widget: 'text' }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      });
+    }
   </script>
 </body>
 </html>
