@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: mexoz/Artewiva
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "contenuti"
+    label: "Contenuti"
+    files:
+      - file: "src/App.tsx"
+        name: "home"
+        label: "Home"
+        fields:
+          - {label: "Titolo", name: "title", widget: "string"}
