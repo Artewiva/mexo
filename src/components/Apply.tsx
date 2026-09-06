@@ -37,6 +37,21 @@ export function Apply() {
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
+
+    const subject = `Candidatura MEXO — ${form.name}`;
+    const body = [
+      `Nome e cognome: ${form.name}`,
+      `Email: ${form.email}`,
+      `Città: ${form.city || "Non indicata"}`,
+      `Categoria: ${form.category}`,
+      `Linguaggio: ${form.language}`,
+      `Link: ${form.links || "Non indicati"}`,
+      "",
+      "Racconto:",
+      form.story,
+    ].join("\\n");
+
+    window.location.href = `mailto:artewiva@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSent(true);
   };
 
@@ -83,7 +98,7 @@ export function Apply() {
               />
               <div className="relative">
                 <p className="font-heading text-xs tracking-[0.4em] text-orange uppercase">
-                  Candidatura ricevuta
+                  Email pronta per l’invio
                 </p>
                 <h3 className="mt-4 font-display text-4xl tracking-wide text-cream sm:text-5xl">
                   BENVENUTO
@@ -94,8 +109,9 @@ export function Apply() {
                   “La musica non è già scritta. La musica accade.”
                 </p>
                 <p className="mt-4 text-sm text-cream/60">
-                  Grazie {form.name ? form.name.split(" ")[0] : ""}. Abbiamo
-                  ricevuto il tuo racconto. Ti ricontatteremo al più presto.
+                  Grazie {form.name ? form.name.split(" ")[0] : ""}. Il tuo client
+                  email si è aperto con la candidatura già compilata. Invia il
+                  messaggio per completare la candidatura.
                 </p>
                 <button
                   type="button"
