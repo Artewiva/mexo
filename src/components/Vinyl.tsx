@@ -8,8 +8,16 @@ export function Vinyl() {
           src="/images/vinyl.jpg"
           alt="Vinile MEXO"
           className="spin-slow h-full w-full scale-[1.12] object-cover brightness-110 contrast-105 group-hover:[animation-play-state:paused]"
+          style={{ textAlign: "center" }}
         />
       </div>
+
+      <img
+        src="/images/vinyl.jpg"
+        alt="Vinile MEXO"
+        className="spin-slow h-full w-full scale-[1.12] object-cover brightness-110 contrast-105 group-hover:[animation-play-state:paused]"
+        style={{ textAlign: "center" }}
+      />
 
       <div
         className="pointer-events-none absolute inset-0 rounded-full"

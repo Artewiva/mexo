@@ -21,8 +21,8 @@ export function Hero() {
           modo di fare musica
         </h1>
 
-        <p className="mt-8 max-w-2xl text-center font-serif text-2xl font-medium text-cream italic sm:text-3xl md:text-4xl">
-          Una nuova orchestra per un nuovo modo di fare musica.
+        <p className="mt-8 max-w-2xl text-center font-bold text-2xl text-cream sm:text-3xl md:text-4xl">
+          MOSAIC EXHIBITION ORCHESTRA
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
