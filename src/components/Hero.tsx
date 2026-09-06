@@ -21,7 +21,7 @@ export function Hero() {
           modo di fare musica
         </h1>
 
-        <p className="mt-8 max-w-2xl text-center font-bold text-cream" style={{ fontSize: '27px' }}>
+        <p className="mt-8 max-w-2xl text-center font-bold text-cream italic" style={{ fontSize: '27px', fontFamily: 'inherit' }}>
           MOSAIC EXHIBITION ORCHESTRA
         </p>
 
