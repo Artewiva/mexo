@@ -21,7 +21,7 @@ export function Hero() {
           modo di fare musica
         </h1>
 
-        <p className="mt-8 max-w-2xl text-center font-serif text-2xl font-medium text-cream italic sm:text-3xl md:text-4xl">
+        <p className="mt-8 max-w-2xl text-center font-serif text-2xl font-medium text-cream italic sm:text-3xl md:text-[32px]">
           Una nuova orchestra per un nuovo modo di fare musica.
         </p>
 
