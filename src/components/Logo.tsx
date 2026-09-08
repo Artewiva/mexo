@@ -23,7 +23,7 @@ const SIZE: Record<
   },
   xl: {
     row: "text-[94px] sm:text-[154px] md:text-[196px] leading-[0.82] tracking-tight",
-    sub: "text-[12px] sm:text-xl md:text-[27px] tracking-[0.12em] sm:tracking-[0.2em] mt-2 sm:mt-4 whitespace-nowrap",
+    sub: "text-[14px] sm:text-[26px] md:text-[34px] tracking-[0.12em] mt-2.5 sm:mt-5 whitespace-nowrap",
     gap: "gap-0",
   },
 };
@@ -42,7 +42,13 @@ export function Logo({
   const s = SIZE[size];
   return (
     <div className={cn("select-none", className)}>
-      <div className={cn("flex items-end font-display", s.row, s.gap)}>
+      <div
+        className={cn(
+          "inline-flex items-end justify-center font-display",
+          s.row,
+          s.gap,
+        )}
+      >
         <span className="mosaic-letter logo-stroke">M</span>
         <span className="text-orange">EXO</span>
       </div>
