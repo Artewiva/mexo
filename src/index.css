@@ -52,6 +52,15 @@ body {
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35);
 }
 
+/* The record mark needs to stay legible over the moving grooves. */
+.vinyl-logo-sub {
+  color: #f0e4c4;
+  text-shadow:
+    0 2px 0 rgba(61, 21, 48, 0.9),
+    0 0 14px rgba(5, 5, 5, 0.7);
+  filter: drop-shadow(0 0 5px rgba(255, 107, 0, 0.35));
+}
+
 @keyframes spin-slow {
   from {
     transform: rotate(0deg);

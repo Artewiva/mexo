@@ -20,8 +20,8 @@ export function Vinyl() {
       />
 
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-        <div className="px-4 text-center">
-          <Logo size="xl" subClassName="text-plum" />
+        <div className="w-full px-3 text-center sm:px-6">
+          <Logo size="xl" subClassName="vinyl-logo-sub" />
         </div>
       </div>
 

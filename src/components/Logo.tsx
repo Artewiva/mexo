@@ -22,8 +22,8 @@ const SIZE: Record<
     gap: "gap-0",
   },
   xl: {
-    row: "text-[70px] sm:text-[118px] md:text-[152px] leading-[0.82] tracking-tight",
-    sub: "text-[8px] sm:text-lg md:text-[22px] tracking-[0.14em] sm:tracking-[0.2em] mt-1.5 sm:mt-3 whitespace-nowrap",
+    row: "text-[94px] sm:text-[154px] md:text-[196px] leading-[0.82] tracking-tight",
+    sub: "text-[12px] sm:text-xl md:text-[27px] tracking-[0.12em] sm:tracking-[0.2em] mt-2 sm:mt-4 whitespace-nowrap",
     gap: "gap-0",
   },
 };
