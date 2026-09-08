@@ -21,7 +21,7 @@ export function Vinyl() {
 
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
         <div className="w-full px-3 text-center sm:px-6">
-          <Logo size="xl" subClassName="vinyl-logo-sub" />
+          <Logo size="xl" centerWordmark subClassName="vinyl-logo-sub" />
         </div>
       </div>
 
