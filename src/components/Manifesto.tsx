@@ -71,10 +71,10 @@ export function Manifesto() {
               key={p.old}
               className="grid gap-4 border-b border-cream/10 py-8 md:grid-cols-12 md:gap-8 md:py-10"
             >
-              <span className="font-heading text-2xl tracking-[0.3em] text-orange uppercase md:col-span-1">
+              <span className="font-heading text-5xl leading-none tracking-[0.15em] text-orange uppercase sm:text-6xl md:col-span-2">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <p className="font-heading text-sm tracking-wide text-cream/35 line-through decoration-cream/30 uppercase md:col-span-4">
+              <p className="font-heading text-sm tracking-wide text-cream/35 line-through decoration-cream/30 uppercase md:col-span-3">
                 {p.old}
               </p>
               <div className="md:col-span-7">
