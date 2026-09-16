@@ -10,8 +10,8 @@ export function Hero() {
       <MosaicCorners />
 
       <div className="relative z-10 flex w-full max-w-6xl flex-col items-center px-4">
-        <p className="mb-4 font-heading text-[11px] tracking-[0.48em] text-orange uppercase sm:text-xs">
-          Open Call · Costruiamo il mosaico
+        <p className="mb-4 font-heading text-[22px] tracking-[0.48em] text-orange sm:text-2xl">
+          OPEN CALL for artist
         </p>
 
         <Vinyl />
