@@ -9,8 +9,8 @@ export function Footer() {
         <div>
           <Logo size="md" subClassName="text-cream/70" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-cream/50">
-            Una nuova orchestra per un nuovo modo di fare musica. Laboratorio
-            creativo multidisciplinare.
+            Una giovane orchestra senza schemi dove la musica accade.
+            Laboratorio creativo multidisciplinare.
           </p>
         </div>
         <div>

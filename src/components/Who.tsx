@@ -20,7 +20,7 @@ const ROLES = [
   {
     title: "Video & Visual Artist",
     kicker: "Immagine e spazio",
-    copy: "Per esplorare la relazione tra suono, immagine e spazio. La scena come organismo.",
+    copy: "Per esplorare la relazione tra suono, immagine e spazio. La scena come collettivo.",
     image:
       "https://images.pexels.com/photos/23921451/pexels-photo-23921451.jpeg?auto=compress&cs=tinysrgb&w=1600",
     accent: "#2D5C38",
@@ -49,7 +49,7 @@ export function Who() {
             I PEZZI DEL MOSAICO
           </h2>
           <p className="mt-4 text-cream/65">
-            Un ecosistema espanso. Non un’orchestra chiusa: un organismo che
+            Un ecosistema espanso. Non un’orchestra chiusa: un collettivo che
             cresce tessera dopo tessera.
           </p>
         </div>

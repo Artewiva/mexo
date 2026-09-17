@@ -17,12 +17,13 @@ export function Hero() {
         <Vinyl />
 
         <h1 className="sr-only">
-          MEXO Mosaic Exhibition Orchestra — Una nuova orchestra per un nuovo
-          modo di fare musica
+          MEXO Mosaic Exhibition Orchestra — Una giovane orchestra senza schemi
+          dove la musica accade
         </h1>
 
         <p className="mt-8 max-w-2xl text-center font-serif text-2xl font-medium text-cream italic sm:text-3xl md:text-4xl">
-          Una nuova orchestra per un nuovo modo di fare musica.
+          Una giovane orchestra
+          <br className="hidden sm:block" /> senza schemi dove la musica accade.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
