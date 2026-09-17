@@ -10,8 +10,9 @@ export function Hero() {
       <MosaicCorners />
 
       <div className="relative z-10 flex w-full max-w-6xl flex-col items-center px-4">
-        <p className="mb-4 font-heading text-[22px] tracking-[0.48em] text-orange sm:text-2xl">
-          OPEN CALL for artist
+        <p className="mb-4 text-center font-heading text-[clamp(15px,4vw,22px)] tracking-[0.32em] text-orange uppercase leading-tight pl-[0.32em] sm:text-2xl sm:tracking-[0.48em] sm:leading-snug sm:pl-[0.48em]">
+          <span className="block">OPEN CALL</span>
+          <span className="block">FOR ARTIST</span>
         </p>
 
         <Vinyl />
