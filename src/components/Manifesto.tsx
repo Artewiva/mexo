@@ -19,7 +19,7 @@ const PAIRS = [
   {
     old: "Esclusivamente musicisti classici o standard",
     next: "Ecosistema espanso",
-    copy: "Un organismo che unisce musicisti, DJ, producer, visual artist e danzatori.",
+    copy: "Un collettivo che unisce musicisti, DJ, producer, visual artist e danzatori.",
   },
 ];
 
@@ -93,8 +93,8 @@ export function Manifesto() {
           ref={quote}
           className="reveal mt-20 max-w-4xl font-serif text-2xl leading-snug text-cream italic sm:text-4xl md:text-5xl"
         >
-          “Ogni individualità diventa parte di un organismo musicale più
-          grande.”
+          “Ogni individualità diventa parte di un collettivo artistico più
+          grande e multidisciplinare.”
         </blockquote>
       </div>
 
