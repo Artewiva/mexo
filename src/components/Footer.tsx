@@ -1,6 +1,17 @@
 import { Logo } from "./Logo";
 import { MosaicStrip } from "./MosaicCorners";
 
+const CREDITS = [
+  {
+    name: "Francesco Calabria",
+    role: "Direzione artistica e organizzativa",
+  },
+  {
+    name: "Massimo Torcivia",
+    role: "Direzione creativa comunicazione, logistica",
+  },
+];
+
 export function Footer() {
   return (
     <footer className="bg-ink">
@@ -54,6 +65,26 @@ export function Footer() {
       <div className="flex flex-col items-center justify-between gap-3 border-t border-cream/10 px-6 py-6 text-[11px] tracking-[0.18em] text-cream/40 uppercase sm:flex-row md:px-10">
         <span>© {new Date().getFullYear()} Mosaic Exhibition Orchestra</span>
         <span>MEXO · Costruiamo il mosaico</span>
+      </div>
+      <div className="border-t border-cream/10">
+        <div className="mx-auto grid max-w-6xl gap-7 px-6 py-9 sm:grid-cols-2 md:px-10">
+          {CREDITS.map((credit) => (
+            <div key={credit.name} className="flex gap-4">
+              <span
+                className="mt-1 h-9 w-[3px] shrink-0 bg-orange"
+                aria-hidden="true"
+              />
+              <div>
+                <p className="font-heading text-sm tracking-[0.16em] text-cream uppercase">
+                  {credit.name}
+                </p>
+                <p className="mt-1.5 text-[11px] leading-relaxed tracking-[0.14em] text-cream/45 uppercase">
+                  {credit.role}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </footer>
   );
