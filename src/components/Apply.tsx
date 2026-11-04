@@ -50,9 +50,11 @@ export function Apply() {
                 Come candidarsi
               </p>
               <h3 className="mt-4 font-display text-4xl tracking-wide text-cream sm:text-5xl">
-                RACCONTA
+                PARLACI DELLE
                 <br />
-                IL TUO MOSAICO
+                TUE ESPERIENZE
+                <br />
+                COMPILA IL FORM
               </h3>
               <p className="mt-5 max-w-xl font-serif text-xl leading-relaxed text-cream/80 italic">
                 Compila il Google Form con le tue informazioni, i tuoi link e
