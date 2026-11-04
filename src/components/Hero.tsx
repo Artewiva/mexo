@@ -24,7 +24,7 @@ export function Hero() {
 
         <p className="mt-8 max-w-2xl text-center font-serif text-2xl font-medium text-cream italic sm:text-3xl md:text-4xl">
           Una giovane orchestra
-          <br className="hidden sm:block" /> senza schemi dove la musica accade.
+          <br className="hidden sm:block" /> senza schemi dove la musica accade
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
