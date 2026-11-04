@@ -4,7 +4,7 @@ const PAIRS = [
   {
     old: "Gerarchia rigida",
     next: "Dialogo trans-generazionale",
-    copy: "L'esperienza incontra la ricerca; la tradizione incontra la contemporaneità.",
+    copy: "Musicisti di esperienza interagiscono con musicisti della nuova generazione, in una orchesta aperta alla contemporanetà.",
   },
   {
     old: "Singolo genere musicale",
