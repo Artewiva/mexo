@@ -16,7 +16,7 @@ export function Footer() {
   return (
     <footer className="bg-ink">
       <MosaicStrip />
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:grid-cols-2 lg:grid-cols-[1.25fr_0.65fr_1fr_auto]">
         <div>
           <Logo size="md" subClassName="text-cream/70" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-cream/50">
@@ -55,6 +55,17 @@ export function Footer() {
             <br />
             La musica accade.
           </p>
+        </div>
+        <div className="flex items-start sm:justify-end">
+          <img
+            src="/images/ARTEWIVA%205-01.%20linee%20Bianche.png"
+            alt="Artewiva Palermo"
+            width={945}
+            height={945}
+            loading="lazy"
+            decoding="async"
+            className="h-auto w-40 max-w-full lg:w-44"
+          />
         </div>
       </div>
       <div className="flex flex-col items-center justify-between gap-3 border-t border-cream/10 px-6 py-6 text-[11px] tracking-[0.18em] text-cream/40 uppercase sm:flex-row md:px-10">
