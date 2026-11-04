@@ -10,8 +10,8 @@ const PAIRS = [
     copy: "A musicisti provenienti da esperienze di musica contemporanea, minimal, acustimatica, improvvisazione radicale e composizione scritta. ambient eletronica, world music, black music.",
   },
   {
-    next: "Nuovo linguaggio collettivo",
-    copy: "Una comunità capace di generare nuova musica, non solo di interpretarla.",
+    next: 'UN ORCHESTRA MULTIDISCIPLINARE A "CONDUZIONE" (CONDUCTOR) GUIDATA',
+    copy: "Un collettivo che mette insieme musicisti, dj producer, visual artist, danzatori ed attori.",
   },
   {
     next: "Ecosistema espanso",
