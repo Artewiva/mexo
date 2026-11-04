@@ -8,8 +8,8 @@ const PAIRS = [
   },
   {
     old: "Singolo genere musicale",
-    next: "Mosaico di culture",
-    copy: "Jazz, musica africana, elettronica, funk, hip hop, musica mediterranea e tradizioni popolari.",
+    next: "UN MOSAICO DI CULTURE MUSICALI APERTO...",
+    copy: "A musicisti provenienti da esperienze di musica contemporanea, minimal, acustimatica, improvvisazione radicale e composizione scritta. ambient eletronica, world music, black music.",
   },
   {
     old: "Repertorio di sola musica già scritta",
