@@ -14,8 +14,8 @@ const PAIRS = [
     copy: "Un collettivo che mette insieme musicisti, dj producer, visual artist, danzatori ed attori.",
   },
   {
-    next: "Ecosistema espanso",
-    copy: "Un collettivo che unisce musicisti, DJ, producer, visual artist e danzatori.",
+    next: "MEXO PROVA APERTA",
+    copy: "È un percorso di formazione dell'Orchestra, una vera prova aperta al pubblico, intinerante, con la direzione guidata di un CONDUCTOR.",
   },
 ];
 
