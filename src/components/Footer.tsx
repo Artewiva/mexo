@@ -40,11 +40,6 @@ export function Footer() {
               </a>
             </li>
             <li>
-              <a href="#chi" className="hover:text-orange">
-                Chi cerchiamo
-              </a>
-            </li>
-            <li>
               <a href="#candidati" className="hover:text-orange">
                 Candidati
               </a>
