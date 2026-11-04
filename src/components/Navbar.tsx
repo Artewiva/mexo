@@ -5,7 +5,6 @@ import { cn } from "../utils/cn";
 const LINKS = [
   { href: "#visione", label: "Visione" },
   { href: "#call", label: "Open Call" },
-  { href: "#chi", label: "Chi cerchiamo" },
   { href: "#candidati", label: "Candidati" },
 ];
 
