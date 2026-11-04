@@ -2,22 +2,18 @@ import { useReveal } from "../hooks/useReveal";
 
 const PAIRS = [
   {
-    old: "Gerarchia rigida",
     next: "Dialogo trans-generazionale",
     copy: "Musicisti di esperienza interagiscono con musicisti della nuova generazione, in una Orchestra aperta alla contemporanetà.",
   },
   {
-    old: "Singolo genere musicale",
     next: "UN MOSAICO DI CULTURE MUSICALI APERTO...",
     copy: "A musicisti provenienti da esperienze di musica contemporanea, minimal, acustimatica, improvvisazione radicale e composizione scritta. ambient eletronica, world music, black music.",
   },
   {
-    old: "Repertorio di sola musica già scritta",
     next: "Nuovo linguaggio collettivo",
     copy: "Una comunità capace di generare nuova musica, non solo di interpretarla.",
   },
   {
-    old: "Esclusivamente musicisti classici o standard",
     next: "Ecosistema espanso",
     copy: "Un collettivo che unisce musicisti, DJ, producer, visual artist e danzatori.",
   },
@@ -68,16 +64,13 @@ export function Manifesto() {
         <div ref={list} className="reveal space-y-0 border-t border-cream/10">
           {PAIRS.map((p, i) => (
             <article
-              key={p.old}
+              key={p.next}
               className="grid gap-4 border-b border-cream/10 py-8 md:grid-cols-12 md:gap-8 md:py-10"
             >
               <span className="font-heading text-2xl tracking-[0.3em] text-orange uppercase md:col-span-1">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <p className="font-heading text-sm tracking-wide text-cream/35 line-through decoration-cream/30 uppercase md:col-span-4">
-                {p.old}
-              </p>
-              <div className="md:col-span-7">
+              <div className="md:col-span-11">
                 <h3 className="font-heading text-xl tracking-wide text-cream uppercase sm:text-2xl">
                   {p.next}
                 </h3>
