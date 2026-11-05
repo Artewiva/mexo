@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero";
 import { MosaicStrip } from "./components/MosaicCorners";
 import { Manifesto } from "./components/Manifesto";
 import { Apply } from "./components/Apply";
+import { Credits } from "./components/Credits";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <MosaicStrip />
         <Manifesto />
         <Apply />
+        <Credits />
       </main>
       <Footer />
     </div>
