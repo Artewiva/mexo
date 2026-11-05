@@ -16,11 +16,15 @@ export function Navbar() {
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 24);
-      const ids = LINKS.map((l) => l.href.slice(1));
       let current = "";
-      for (const id of ids) {
-        const el = document.getElementById(id);
-        if (el && el.getBoundingClientRect().top < 140) current = `#${id}`;
+      let closestTop = -Infinity;
+      for (const { href } of LINKS) {
+        const el = document.getElementById(href.slice(1));
+        const top = el?.getBoundingClientRect().top;
+        if (top !== undefined && top < 140 && top > closestTop) {
+          current = href;
+          closestTop = top;
+        }
       }
       setActive(current);
     };

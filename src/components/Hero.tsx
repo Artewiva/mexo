@@ -4,7 +4,7 @@ import { Vinyl } from "./Vinyl";
 export function Hero() {
   return (
     <section
-      id="top"
+      id="call"
       className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-ink pt-20 pb-16"
     >
       <MosaicCorners />
@@ -44,7 +44,7 @@ export function Hero() {
       </div>
 
       <a
-        href="#call"
+        href="#visione"
         className="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-2 text-cream/50 transition hover:text-orange"
         aria-label="Scorri"
       >
