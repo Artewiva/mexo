@@ -2,7 +2,7 @@ import { useReveal } from "../hooks/useReveal";
 
 const PAIRS = [
   {
-    next: "Dialogo trans-generazionale",
+    next: "DIALOGO TRANSGENERAZIONALE",
     copy: "Musicisti di esperienza interagiscono con musicisti della nuova generazione, in una Orchestra aperta alla contemporanetà.",
   },
   {
