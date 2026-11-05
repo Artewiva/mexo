@@ -1,6 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
-import { OpenCall } from "./components/OpenCall";
+import { MosaicStrip } from "./components/MosaicCorners";
 import { Manifesto } from "./components/Manifesto";
 import { Apply } from "./components/Apply";
 import { Footer } from "./components/Footer";
@@ -10,9 +10,9 @@ export default function App() {
     <div className="min-h-dvh bg-ink text-cream">
       <div className="grain" />
       <Navbar />
-      <main>
+      <main id="top">
         <Hero />
-        <OpenCall />
+        <MosaicStrip />
         <Manifesto />
         <Apply />
       </main>
