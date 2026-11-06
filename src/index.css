@@ -74,19 +74,6 @@ body {
   animation: spin-slow 48s linear infinite;
 }
 
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.marquee-track {
-  animation: marquee 32s linear infinite;
-}
-
 @keyframes pulse-glow {
   0%,
   100% {
@@ -237,7 +224,6 @@ select.input-field option {
 
 @media (prefers-reduced-motion: reduce) {
   .spin-slow,
-  .marquee-track,
   .pulse-glow,
   .float-y {
     animation: none;

@@ -19,16 +19,6 @@ const PAIRS = [
   },
 ];
 
-const GENRES = [
-  "Jazz",
-  "Musica africana",
-  "Elettronica",
-  "Funk",
-  "Hip Hop",
-  "Musica mediterranea",
-  "Tradizioni popolari",
-];
-
 export function Manifesto() {
   const head = useReveal<HTMLDivElement>();
   const list = useReveal<HTMLDivElement>();
@@ -89,33 +79,6 @@ export function Manifesto() {
           “Ogni individualità diventa parte di un collettivo artistico più
           grande e multidisciplinare.”
         </blockquote>
-      </div>
-
-      <div className="border-y border-cream/10 bg-ink py-5 overflow-hidden">
-        <div className="marquee-track flex w-max gap-0">
-          {[...GENRES, ...GENRES].map((g, i) => (
-            <span
-              key={`${g}-${i}`}
-              className="flex items-center gap-6 px-6 font-heading text-sm tracking-[0.28em] text-cream/80 uppercase"
-            >
-              <span
-                className="inline-block h-3 w-3 rotate-45"
-                style={{
-                  background: [
-                    "#FF6B00",
-                    "#6B2A70",
-                    "#2D5C38",
-                    "#F0E4C4",
-                    "#5C1A38",
-                    "#1A3D32",
-                    "#E8A060",
-                  ][i % 7],
-                }}
-              />
-              {g}
-            </span>
-          ))}
-        </div>
       </div>
     </section>
   );
