@@ -4,6 +4,7 @@ const CREDITS = [
     role: "Direzione artistica e organizzativa",
     logo: "/images/MMS%20LOGO.png",
     logoAlt: "MMS Mosaic Music Session Exhibition",
+    logoClassName: "origin-left scale-115",
   },
   {
     name: "Massimo Torcivia",
@@ -27,7 +28,7 @@ export function Credits() {
                 height={945}
                 loading="lazy"
                 decoding="async"
-                className="h-16 w-auto max-w-[12rem] object-contain object-left"
+                className={`h-16 w-auto max-w-[12rem] object-contain object-left ${credit.logoClassName ?? ""}`}
               />
               <div className="flex gap-4">
                 <span
